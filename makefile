@@ -26,7 +26,7 @@ HEADERS = Alien.hpp Board.hpp inputValidation.hpp Instructions.hpp NormalSpace.h
 
 # Command to compile my executable from my objects
 Project5_Anderson_Jacob: ${OBJS} ${HEADERS}
-	${CXX} ${OBJS} -o Project5_Anderson_Jacob.exe
+	${CXX} ${OBJS} -o alienSurvival.exe
 
 # Command to compile my objects from my sources
 ${OBJS}: ${SRCS}
@@ -34,4 +34,4 @@ ${OBJS}: ${SRCS}
 
 # Command to clean the files
 clean:
-	rm ${OBJS} Project5_Anderson_Jacob.exe
+	rm ${OBJS} alienSurvival.exe
